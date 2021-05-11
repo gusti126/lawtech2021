@@ -1,0 +1,12 @@
+.btn-law-hijau {
+  background: #3ee8b5;
+  color: #263959;
+  font-weight: bold;
+  min-width: 200px;
+  border-radius: 30px;
+  &:hover {
+    box-shadow: 2px 2px 4px #049d6f;
+    color: black;
+    background: #0cc08a;
+  }
+}

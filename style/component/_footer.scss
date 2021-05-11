@@ -1,0 +1,6 @@
+.footer-md {
+  margin-top: 160px;
+  @include media-breakpoint-up(md) {
+    display: none;
+  }
+}

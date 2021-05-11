@@ -1,0 +1,92 @@
+.navbar-law {
+  //   padding-top: 15px;
+  background: transparent !important;
+
+  @include media-breakpoint-down(md) {
+    // background-color: #fff !important;
+    display: none;
+  }
+
+  .navbar-brand {
+    color: white;
+    span {
+      color: #3ee8b5;
+    }
+  }
+  .nav-item {
+    &.active {
+      a {
+        color: #3ee8b5 !important;
+        text-decoration: underline;
+      }
+    }
+    .nav-link {
+      @include media-breakpoint-up(lg) {
+        margin-left: 14px;
+        margin-right: 14px;
+        color: white;
+      }
+    }
+  }
+
+  .profile-picture {
+    max-height: 45px;
+  }
+
+  .cart-badge {
+    display: inline-block;
+    min-width: 2em; /* em unit */
+    padding: 0.3em; /* em unit */
+    border-radius: 50%;
+    font-size: 10px;
+    text-align: center;
+    background: #29a867;
+    color: #fefefe;
+    margin-left: -10px;
+  }
+}
+
+.mobil-nav {
+  @include media-breakpoint-up(md) {
+    display: none;
+  }
+  .card {
+    border-radius: 26px 26px 0px 0px;
+    border: unset;
+    box-shadow: 1px -4px 9px rgba(0, 0, 0, 0.1);
+  }
+  .img-icon-nav {
+    width: 24px;
+    fill: yellow;
+  }
+  a {
+    color: #29a867;
+  }
+
+  i {
+    font-size: 20px;
+    color: #414141;
+    &.active {
+      background: -webkit-linear-gradient(135deg, #0d4121 0%, #00c900 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  p {
+    margin: unset;
+    font-size: 12px;
+    color: #939396;
+    line-height: unset;
+    color: #39b54a !important;
+    font-weight: bold;
+    &.active {
+      color: #39b54a !important;
+    }
+  }
+
+  img {
+    width: 26px;
+    height: 26px;
+  }
+}

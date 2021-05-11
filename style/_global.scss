@@ -1,0 +1,40 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.jasa-populer {
+  padding-bottom: 20px;
+  background-position: center;
+  background-size: cover;
+  .jasa-populer-desktop {
+    @include media-breakpoint-down(lg) {
+      display: none;
+    }
+  }
+  .jasa-populer-lg {
+    @include media-breakpoint-up(lg) {
+      display: none;
+    }
+    // .carousel-jasa {
+    //   width: 300px;
+    // }
+  }
+  a {
+    text-decoration: unset;
+    color: rgb(37, 37, 37);
+    h5 {
+      margin-top: 10px;
+      font-weight: 600;
+    }
+  }
+  .thumbnail {
+    margin-top: 20px;
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .thumbnail-lg {
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+}

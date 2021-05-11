@@ -1,0 +1,15 @@
+// Import Bootstrap 4 Library
+@import "../vendor/bootstrap/scss/bootstrap.scss";
+
+// global
+@import "global";
+@import "navbar";
+
+// component
+@import "component/button";
+@import "component/lawyer-pro";
+@import "component/diskusi";
+@import "component/footer";
+
+// page
+@import "page/home";

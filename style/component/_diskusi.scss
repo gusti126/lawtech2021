@@ -1,0 +1,9 @@
+.diskusi-about {
+  h2 {
+    font-weight: bold;
+    color: #263959;
+    @include media-breakpoint-down(md) {
+      font-size: 28px;
+    }
+  }
+}
