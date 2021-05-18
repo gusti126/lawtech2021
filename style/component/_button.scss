@@ -10,3 +10,14 @@
     background: #0cc08a;
   }
 }
+.btn-law-ungu {
+  background: #263959;
+  color: #ffffff;
+  min-width: 200px;
+  border-radius: 30px;
+  &:hover {
+    box-shadow: 2px 2px 4px #263959;
+    color: rgb(235, 235, 235);
+    background: #113677;
+  }
+}
